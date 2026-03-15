@@ -16,28 +16,28 @@ A fullstack quiz application where users generate AI-powered multiple-choice qui
 ## Screenshots
 
 ### Register
-![Register](screenshots/Register.png)
+![Register](Screenshots/Register.png)
 
 ### Login
-![Login](screenshots/Login.png)
+![Login](Screenshots/Login.png)
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
-![Dashboard](screenshots/dashboard2.png)
+![Dashboard](Screenshots/dashboard.png)
+![Dashboard](Screenshots/dashboard2.png)
 
 ### Create Quiz
-![Create Quiz](screenshots/create-quiz.png)
+![Create Quiz](Screenshots/create-quiz.png)
 
 ### Taking a Quiz
-![Quiz](screenshots/quiz-taking1.png)
-![Quiz](screenshots/quiz-taking2.png)
+![Quiz](Screenshots/quiz-taking1.png)
+![Quiz](Screenshots/quiz-taking2.png)
 
 ### Review
-![Review](screenshots/review.png)
-![Review](screenshots/review2.png)
+![Review](Screenshots/review.png)
+![Review](Screenshots/review2.png)
 
 ### Results
-![Results](screenshots/results.png)
+![Results](Screenshots/results.png)
 
 ---
 
