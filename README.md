@@ -80,26 +80,6 @@ Frontend runs at `http://localhost:3000`
 
 ---
 
-## Deployment
-
-### Backend → Render
-
-1. Push code to GitHub
-2. Create a new **Web Service** on [render.com](https://render.com)
-3. Connect your repo, set root directory to `backend/`
-4. Render auto-detects `render.yaml` — it provisions a PostgreSQL DB and web service
-5. Set the `GEMINI_API_KEY` environment variable in Render dashboard
-6. Update `CORS_ALLOWED_ORIGINS` to your Vercel frontend URL
-
-### Frontend → Vercel
-
-1. Import the repo on [vercel.com](https://vercel.com)
-2. Set root directory to `frontend/`
-3. Add environment variable: `NEXT_PUBLIC_API_URL=https://your-backend.onrender.com`
-4. Deploy
-
----
-
 ## API Endpoints
 
 | Method | Endpoint | Description | Auth |
@@ -212,7 +192,7 @@ The quiz-taking serializer (`QuestionSerializer`) deliberately omits `correct_op
 - [x] Retake quizzes (new attempt each time)
 - [x] Dashboard with stats (total quizzes, attempts, average score)
 
-## Features Skipped (and why)
+## Features Skipped 
 
 - **Email verification** — adds complexity (SMTP setup, token flow) without helping evaluate core skills
 - **Leaderboard** — out of scope for the personal quiz tracker use case
