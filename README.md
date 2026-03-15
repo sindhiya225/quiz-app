@@ -16,10 +16,10 @@ A fullstack quiz application where users generate AI-powered multiple-choice qui
 ## Screenshots
 
 ### Register
-![Register](Screenshots/Register.png)
+![Register](Screenshots/register.png)
 
 ### Login
-![Login](Screenshots/Login.png)
+![Login](Screenshots/login.png)
 
 ### Dashboard
 ![Dashboard](Screenshots/dashboard.png)
