@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: quizai-backend
+    env: python
+    buildCommand: pip install -r requirements.txt && python manage.py migrate && python manage.py collectstatic --noinput
+    startCommand: gunicorn quiz_project.wsgi:application --bind 0.0.0.0:$PORT
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DEBUG
+        value: False
+      - key: ALLOWED_HOSTS
+        value: quizai-backend.onrender.com
+      - key: DATABASE_URL
+        fromDatabase:
+          name: quizai-db
+          property: connectionString
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: CORS_ALLOWED_ORIGINS
+        value: https://your-frontend.vercel.app
+
+databases:
+  - name: quizai-db
+    databaseName: quizapp
+    user: quizapp
