@@ -8,8 +8,8 @@ A fullstack quiz application where users generate AI-powered multiple-choice qui
 
 ## Live Demo
 
-- **Frontend:** https://your-app.vercel.app
-- **Backend API:** https://your-backend.onrender.com
+- **Frontend:** https://quiz-app.vercel.app
+- **Backend API:** https://quiz-app.onrender.com
 
 ---
 
@@ -24,7 +24,7 @@ A fullstack quiz application where users generate AI-powered multiple-choice qui
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/quiz-app.git
+git clone https://github.com/sindhiya225/quiz-app.git
 cd quiz-app
 ```
 
